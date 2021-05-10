@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Eventos DOM 02</title>
+    <style> 
+        div#coral {
+            background-color: coral;
+            color: black ;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id = 'coral' 
+    onclick="clicar()" 
+    onmouseover="entrar()">
+
+
+        <!-- 1°Passo: Colocar o evento, da pra fazer tanto no HTML quanto no JS nesse caso
+            agora estamos fazendo um evento dentro do HTML: onclick="acao()" estamos
+        chamando que quando onclick na function clicar ira acontecer oque tiver dentro do
+    {} -->
+        Interaja...
+
+    </div>
+    <!-- 2°Passo é criar uma função para aquela ordem-->
+    <script> 
+        function clicar() {
+            var a = window.document.querySelector('div#coral')
+            a.innerText = 'clicou!'
+        }
+        function entrar() {
+            a.innerText = 'entrar'
+
+        }
+    //Proximo exercicio (03) onmouseenter:::
+    </script>
+</body>
+</html>

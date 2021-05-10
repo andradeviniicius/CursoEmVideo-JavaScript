@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<style> 
+    body {
+        background-color: rgb(26, 0, 27); /* cor do fundo da tela */
+        color: cornsilk;
+        font: normal 20pt Arial
+    }
+    h1{color:crimson}
+    </style>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8"> <!-- Linguagem que o site será "hospedado?" nao sei Linguagem que o site será "hospedado?" nao sei -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- nao sei -->
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title> 3ManipulacaoDdados </title>
+</head>
+<body>
+    <h1> voce ganha: ___ nao consigo saber ainda quanto voce ganha jhow </h1>
+    <p> vo me esforça mais </p>
+    <script>
+        var ganho1 = Number(window.prompt('t3 qual teu primeiro salari'))
+        var ganho2 = Number(window.prompt('t3 qual teu salario2?'))
+        var total = ganho1 + ganho2
+        window.alert ('t3 voce vai ganhar esse mes: ' + total )
+
+        /* a problematica desse metodo escrever com concatenacao
+         é quando há varias variaveis por exemplo: */
+
+        var nome = window.prompt('qual seu nome?')
+        var idade = Number(window.prompt('qual sua idade?'))
+        var altura = Number(window.prompt('qual sua altura?'))
+
+        window.alert('O ' +nome+ ', que tem ' +idade+ ' anos, já tem ' +altura+ ' de altura')
+        
+        /* Na versao mais recente do JS tem uma tecnica chamada de template strings
+        (formatador de strings) Ex:
+
+        Concatenação: 'eu estou aprendendo' + s
+        TemplateDeStrings: ´Eu estou aprendendo ${s}
+        
+        obs:
+        $: placeholder */
+
+        window.alert(`O ${nome} que tem ${idade} anos, já tem ${altura} de altura`)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+Pratica 
+
+A ordem que o JS lê os codigos é sempre
+aritmetiocs depois logicos 
+Precedencia
+
+-Aritmeticos
+    () ** / * + -
+-Relacionais
+    Ordem de chegada
+-Logicos
+    ! && ||
+
+ex:
+var a = 5
+var b = 8
+
+a > b &&  b % 2 == 0
+false %% true 
+false 

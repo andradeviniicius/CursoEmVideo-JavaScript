@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3ManipulacoesDdados</title>
+    <style>
+        body {
+            font: normal 20px impact    ;
+            background-color: teal;
+        }
+        
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('qual é seu nome?')
+        var sal1 = Number(window.prompt('Quanto voce ganha?'))
+        document.write(`Olá <strong> ${nome} </strong>, seu nome tem ${nome.length} letras <br/> ` )
+        document.write(`seu nome em maiusculas fica ${nome.toUpperCase()} <br/> `)
+
+           /* Algumas funções importantes porém complexos sobre numeros
+
+        n1.toFixed(2).replace('.',',') para transformar a leitura de . em , nos comandos
+        n1.toLocaleString('pt-br' , {style: 'currency', currency: 'BRL'})
+        -Para transformar em Real o dinheiro, ou USD EUR enfim */
+
+        document.write(`você ganha ${sal1.toLocaleString('pt-br' , {style: 'currency', currency: 'BRL'}).replace('.',',')}`)
+    </script>
+</body>
+</html>

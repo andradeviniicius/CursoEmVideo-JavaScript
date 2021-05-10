@@ -1,0 +1,35 @@
+Estudaremos
+
+Relacionais
+Logicos
+e Ternario
+
+Relacionais:
+
+>   Maior
+<   Menos
+>=  Maior ou igual
+>=  Menor ou igual 
+==  Identico valor ( mesmo valor )
+!=  Diferente valor
+=== Identico valor e tipo (mesmo valor e tipo)
+!== Diferente tipo
+
+Ex:
+
+5>2 True
+7<4 False
+8>=8 True
+9<= 7 False
+5 == 5 True
+4 != 4 False   
+
+Relacionais de identidade
+
+5 == 5      true
+5 == '5'    true
+Java script entende a string 5 como numero 5, por mais que sejam tipos diferentes
+para identificar se sao do mesmo tipo:
+5 === '5'   false
+
+Relacionais: DONE

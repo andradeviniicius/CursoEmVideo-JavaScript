@@ -1,0 +1,47 @@
+Condicoes em JS
+
+Aprendemos Sequencias
+
+1   var n = 3
+2   n += 2
+3   window,alert(n)
+
+O codigo é lido em sequencia, nao tem como executar 2 - 3 - 1 ou 3 - 1 - 2 ou 3 - 2 
+
+Mas há situacoes que precisa-se de ramificar opcoes, a exemplo da taxametabolica 2.0
+precisava de duas funcoes, uma para masculino e outra para feminino, até entao nao sabiamos
+fazer isso, agora aprenderemos, para isso utilizaremos:
+
+Condicoes
+
+1   comando 1
+2   comando 2
+3   desvio condicional para a ou b
+
+    1   comando a1      1   comando b1
+    2   comando a2      2   comando b2
+
+4   comando 3
+
+OBS: a maioria das linguagens populares, dita imperativas, tem essa estrutura de Condicoes
+
+Como representar essa condicao no javascript?
+
+            3   (condicao= true or false)
+
+1   if {true} a1      1   else{false} b1
+2   comando a2        2   comando b2
+   
+Tipos de condicao
+
+Condicao simples
+    if(condicao) {true}
+
+    if (condicao) {
+    true
+    } 
+    else {
+    false
+    }
+
+    Partiu pro VS 

@@ -1,0 +1,24 @@
+Ternario é composto por dois simbolos
+
+?       :
+
+
+Ex:
+teste ? true : false 
+
+Ternario pq junta 3 operandos
+
+teste: Resultado que da verdadeiro ou falso
+?: o que vai acontecer quando esse teste for verdadeiro
+:    o que vai acontecerq uando for falso
+
+Exemplo pratico
+
+média >= 7 ? "Aprovado" : "Reprovado"
+
+Teste no NODE
+
+var media = 5.5
+media > 7  ? 'aprovado' : reprovado 
+leitura: é maior ou igual a 7 ? caso true: aprovado caso não: reprovado
+reprovado 

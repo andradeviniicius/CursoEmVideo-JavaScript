@@ -1,0 +1,21 @@
+COndicao multipla serve para valores FIXOS
+
+Nao serve para intervalos como bom dia boa tarde boa noite
+
+Tem a possibilidade de varios valores fixos, se for um valor faz tal se for um faz tal
+
+O if e o else if funcionam em varias situacoes, a condicao multipla é só em situacoes mt especificas
+
+        <>
+1   2   3   4   5
+        <>
+
+switch(expressao) {
+        case valor1:
+        case valor2:
+        case valor3:
+
+        default:                        Como se fosse o else, se nenhum dos valores forem satisfeitos ele executa o default
+}
+
+DEtalhe importante, É NECESSARIO o comando break depois de cada case

@@ -1,0 +1,27 @@
+
+Aritmeticos
+
++   Soma
+-   Subtracao
+*   Multiplicar
+/   Divisao inteira
+%   Resto da Divisao inteira, nao utiliza virgula . Caos
+**  Raízes
+
+Matematica basica
+
+Ordem Precedencia
+()  Limitadores
+**  Raizes
+*   Multiplicacao   
+/   Divisao
+%   Resto da Divisao
++   Soma
+-   Subtracao
+
+
+
+
+
+
+

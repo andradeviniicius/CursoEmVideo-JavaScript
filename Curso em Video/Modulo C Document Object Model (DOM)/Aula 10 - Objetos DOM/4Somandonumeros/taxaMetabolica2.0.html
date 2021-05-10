@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bora se cuidar :)</title>
+</head>
+<style> 
+    body{
+        background: coral;
+}
+    div {
+        font: normal 20px arial;
+    }
+    p  {
+        font: normal 20px arial;
+    }
+    input {
+        font: normal 20px impact;
+
+    }
+</style>
+<body>
+    <h1> Olá, nesse site você vai descobrir sua Taxa Metabólica Basal</h1>
+    <p> A taxa metabolica basal é o quanto de caloria o seu corpo gasta apenas por existir</p>
+    <p> Bora começar :) </p>
+
+    <input type='value' name='peso' id = "peso"> <strong>Seu peso em KG</strong> <br> <!-- Para que serve o 'name'?-->
+    <input type='value' name='altura' id="altura" > <strong>Sua altura em cm</strong><br> 
+
+    <input type='value' name='idade' id=idade> <strong>Sua idade em Anos </strong> <br> <br>
+    <p id=sex><strong>Seu sexo biológico: (Not working) :(</strong> <br></p>
+    <input type='button' value='Masculino' onclick ="masc()">
+    <input type='button' value='Feminino' onclick="fem()"> <br> <br>
+
+    <input type='button' value='Calcular!' onclick="calcular()"> <br> <br>
+    
+    <div id='res'> A sua taxa metabolica basal aparecerá aqui  </div>
+    
+<script>
+   
+   function calcular() {
+    var peso = document.getElementById('peso')
+    var altura = document.getElementById('altura')
+    var idade = document.getElementById('idade')
+    var res1 =document.querySelector('div#res')
+    var p1 = Number(peso.value)
+    var a1 = Number(altura.value)
+    var i1 = Number(idade.value)
+    var s = ((p1 * 10) + (a1 * 6.25) - (i1 * 5) + 5)
+    //TMB fem = 655 + (9,6 x peso em kg.) + (1,8 x altura em cm) - (4,7 x idade em anos).
+
+    res1.innerHTML = `A quantidade de calorias que seu corpo gasta é de: <strong>${s}</strong>`
+
+   }
+    
+</script>
+</body>
+</html>

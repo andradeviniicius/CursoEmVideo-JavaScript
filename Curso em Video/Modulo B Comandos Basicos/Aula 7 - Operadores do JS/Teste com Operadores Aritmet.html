@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxa metabolica </title>
+    <style>
+        body {font: normal 20 Impact    ;
+        background-color: coral;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Bom dia :D </h1>
+
+    <script> 
+
+    window.alert('Bem vindo ao calculo de TMB do dade')
+    var confirm = window.prompt('')
+    var nome = window.prompt('Qual o seu nome?')
+    var peso = Number(window.prompt ('Qual o seu peso?'))
+    var altura = Number(window.prompt ('Qual a sua altura em centímetros?').replace ('.' , ','))
+    var idade = Number(window.prompt('Qual sua idade?'))
+
+    var taxa = ((peso * 10) + (altura * 6.25) - (idade * 5)) + 5
+
+
+    document.write (`<strong>${nome}</strong> Você acaba de entrar na calculadora de gasto calórico do Dade :) <br/>` )
+    
+    document.write (
+        `Você tem:<br/>
+        ${idade} Anos <br/>
+        ${altura}cm de altura<br/>
+        e ${peso} Kilos <br/>
+    `)
+
+    document.write (`Se você ficar deitado o dia INTEIRO!! Você vai gastar <strong>${taxa} Calorias!</strong> ou seja: <br/>`)
+    document.write (`Para manter o seu peso atual sem fazer exercicios fisicos, você deve ingerir: <strong>${taxa} calorias.</strong> <br/>`)
+    document.write (`Para <strong>perder</strong> peso sem fazer exercicios fisicos, você deve ingerir: <strong>${taxa - (300)} calorias.</strong> <br/>`)
+    document.write (`Para <strong>ganhar</strong> peso sem fazer exercicios fisicos, você deve ingerir: <strong>${taxa + (300)} calorias.</strong> <br/>`)
+    document.write (`Se você pratica exercicios fisicos regularmente e quer <strong> MANTER </strong> seu peso, você deve ingerir: <strong>${(taxa) * 1.5} calorias.</strong> <br/>`)
+    document.write (`Se você pratica exercicios fisicos regularmente e quer <strong> PERDER </strong> peso, você deve ingerir: <strong>${taxa * (1.5) - 300} calorias.</strong> <br/>`)
+    document.write (`Se você pratica exercicios fisicos regularmente e quer <strong> GANHAR </strong> peso, você deve ingerir: <strong>${taxa * (1.5) + 300} calorias.</strong> <br/>`)
+
+    // ((peso x 10) + (altura x 6.25) - (idade x 5)) + 5 =
+    </script>
+</body>
+</html>

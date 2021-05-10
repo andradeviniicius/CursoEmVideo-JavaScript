@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmacao de Nacionalidade</title>
+    <style>
+        body {
+            background-color: rgb(10, 121, 28);
+            font: normal 20px impact ;
+
+        
+        }
+    
+    </style>
+</head>
+<body>
+    <h1> Qual a minha nacionalidade? </h1>
+    <p> Qual seu nome: </p>
+    <input type='value' name='nome' id='nome'>
+
+    <p> Em qual país você mora </p>
+    <input type='string' name='país' id='país'>
+
+
+</br>
+    <input type= 'button' value= 'verificar' onclick= 'verif()'>
+    <div id=res> </div>
+
+    <script>
+
+        function verif() {
+        var país = document.querySelector('input#país')
+        var nome = document.querySelector('input#nome')
+        var res = document.querySelector('div#res')
+        var res2 = String(país.value).toLowerCase()
+        var nome2 = String(nome.value)
+
+        if (res2.value.lenght == 7)
+        if (res2 == 'brasil') { 
+            res.innerHTML = (`Seu nome é ${nome2} e você é brasileiro :) `)
+        } 
+        else {
+            res.innerHTML = (`Seu nome é ${nome2} e você é estrangeiro :) `)
+        }
+    }
+    </script>
+
+</body>
+</html>

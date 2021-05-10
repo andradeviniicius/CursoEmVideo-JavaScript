@@ -1,0 +1,21 @@
+body {
+    background-color: coral;
+
+}
+section {
+    font: normal 20px arial;
+    
+}
+input {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.171);
+}
+div {
+    font-size: 20px;
+    font-weight: bold ;
+}
+header {
+    font: normal 20px impact;
+}
+footer {
+    font-style: oblique;
+}

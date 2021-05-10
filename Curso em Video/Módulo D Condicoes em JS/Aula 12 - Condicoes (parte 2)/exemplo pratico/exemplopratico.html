@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tchurchutm</title>
+    <link rel="stylesheet" href="stylee.css">
+    
+</head>
+<body>
+    <!-- <script src="Jscript.js">  </script> -->
+
+    <header> 
+        <h1> Ponto LKM </h1>
+    </header>
+
+    <div> Insira seu nome: </div>
+    
+    <input type="value" name="pesquisa" id="pesquisa">
+    <input type= 'button' value= 'verificar' onclick= 'verif()'>
+
+    <div id='res'> Results </div>
+    <div> </div>
+
+    <br> 
+    <footer> 
+        Criado por dade@techcenter
+    </footer>
+
+    <script>
+
+
+    function verif() {
+    var res1 = document.querySelector('div#res')
+    var pesq = document.querySelector('input#pesquisa')
+    var pesq2 = String(pesquisa.value).toLowerCase()
+
+        if (pesq2 == 'vinicius') {
+        res.innerHTML ='Seja bem vindo, Vinicius :)'
+        }
+        else if (pesq2 == 'matheus') {
+        res.innerHTML ='Seja bem vindo, Matheus :)'
+        } else {
+            res.innerHTML ='Você não trabalha nesta empresa'
+        }
+    }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+por Seletor
+
+
+Por queryselector:
+    queryselector()
+    queryselectorAll()[]
+
+VisualStudio ex005(6)
+
+queryselector é um metodo mais recente mas bem mais
+pratico.
+
+var p1 = window.document.querySelector('div#msg')
+        p1.style.background = 'blue'
+
+var p1 = window.document.getElementById('msg')
+    p1.style.backgroundColor = 'green

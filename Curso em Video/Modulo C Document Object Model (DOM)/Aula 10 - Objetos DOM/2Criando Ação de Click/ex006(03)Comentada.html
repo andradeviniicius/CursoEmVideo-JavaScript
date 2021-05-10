@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coment.Eventos DOM 02</title>
+    <style> 
+        div#area {
+            background-color: red;
+            color: black ;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id = 'area' onclick="clicar()" onmouseover = "entrar()" onmouseout="sair()">
+            <!-- quando o mouse entrar
+             quando o mouse sair -->
+        Clica aqui...
+    </div>
+    <!-- Agora tem que criar outra function, teria que se criar outra variavel para o
+    comando entrar porém pra ficar mais pratico vamos tirar a var a da primeira function
+    para que ela sirva para todas as functions
+ -->
+    <script>
+        
+/* No primeiro exercicio a var estava dentro da primeira function, funcionando apenas
+para aquela function, tiramos ela de lá para que funcione em todas as functions
+
+Quando aprendermos sobre escopo entenderemos que isso causa problema de memoria
+    mas por enquanto nao nos preocuparemos com isso
+*/ 
+        var a = window.document.getElementById('area')
+        
+        function clicar() {
+            a.innerText = 'te amo!';
+            a.style.backgroundColor = 'pink'
+         }
+        /*function entrar() {
+            a.innerText = 'entrou!';
+        }*/
+        function sair() {
+            a.innerText = 'clica de novo :(!'
+            a.style.backgroundColor = 'red'
+            
+        }
+        
+        /*
+        function sair()   {
+            a.innerText = 'saiu!'
+        } 
+        */
+  
+    </script>
+</body>
+</html>

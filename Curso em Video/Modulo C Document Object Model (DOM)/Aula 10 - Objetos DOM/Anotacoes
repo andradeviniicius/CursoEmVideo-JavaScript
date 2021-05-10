@@ -1,0 +1,46 @@
+Recapitulando
+
+DOM - Document object model
+facilitador que existe dentro do HTML para dar acesso aos elementos diretamente 
+para o JavaScript
+
+Arvore DOM
+
+5 Técnicas
+Tagname, ID, Name, ClassName, querySelector (faz selecao atraves de elementos css)
+
+Nessa aula focaremos em Eventos DOM
+
+Ex: ex006 01
+
+Agora Aprenderemos 
+
+function {}
+
+Alguns comandos bastante utilizados sobre <div>
+
+mouseenter  quando chega o mouse dentro da div dispara o Evento
+mousemove   continuar movendo o mouse dentro da div dispara o mousemove
+mousedown   quando clica o mouse e quando solta o click > mouseup
+click       evento de click que é executado no final do click
+mouseout    dispara quando o mouse sai de cima do div 
+
+Todos os comandos:
+https://developer.mozilla.org/pt-BR/docs/Web/Events
+bastante coisa kk
+
+
+Funções
+Até agora a engine tava lendo tudo, vamos botar limitadores agora, onde só lerá as ações
+somente quando o evento ocorre (mouseup, down, click)
+
+Pra isso trabalharemos com blocos {}
+ex:
+
+function ação(param) {
+
+}
+
+param   parametros (futuramente)
+
+Codigo de click em ex006(02)

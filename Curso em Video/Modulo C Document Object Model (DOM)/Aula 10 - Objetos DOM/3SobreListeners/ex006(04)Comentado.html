@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sobre listeners</title>
+    <style> 
+        div#coral {
+            background-color: coral;
+            color: black ;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id = coral> 
+
+        Interaja...
+
+    </div>
+    <script> 
+        //Além de disparar funcoes pelo html da para disparar os eventos utilizando os
+        // listeners dentro do proprio javascript
+        var a = window.document.getElementById('coral')
+        a.addEventListener('click' , clicar)
+        a.addEventListener('mouseover' , sair)
+        a.addEventListener('mouseout' , entrar)
+        /*EventListener vai ficar prestando atencao em determinado elemento
+         Com esse event Listener voce pode apagar a linha da div, os comandos sao 
+        ordenados pelo eventlistener agora e nao pelo <div> */
+        function clicar() {
+            a.innerText = 'clicou!';
+            a.style.background ='green'
+        }
+        function entrar() {
+            a.innerText = 'Entrou!'
+
+        }
+        function sair() {
+            a.innerText='saiu!';
+            a.style.background='red'
+
+        }
+    </script>
+</body>
+</html>

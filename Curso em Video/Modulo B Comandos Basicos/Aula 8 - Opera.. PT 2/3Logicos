@@ -1,0 +1,47 @@
+Logicos:
+
+!   negação
+&&  conjunção
+||  disjunção
+
+Analogia real 
+
+!   
+Quero uma caneta mas nao pode ser azul
+&&
+quero uma caneta azul e vermelha
+entregou as duas: true 
+||
+caneta azul ou vermelha 
+azul: true
+vermelha: true
+roxa: roxa
+
+in-depth
+
+                        Negação:
+!   true: false 
+    false: true
+
+                        conjunção
+&&
+item1   item2
+--      --
+true    true    :   true
+true    false   :   false
+false   true    :   false
+false   false   :   false
+
+                          
+Necessario os dois verdadeiros para resultar true
+
+                             disjunção
+||
+item1   item2
+--      --
+true    true    :   true
+true    false   :   true
+false   true    :   true
+false   false   :   false
+
+Basta que um deles seja true

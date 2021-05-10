@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelecioanrporTagName
+    </title>
+
+    <style> body {
+        background-color: aqua;
+        font: normal 20px Arial;
+        color: black;
+    }   
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Sobre selecao por Marca </h1>
+    <p> teste p1 </p> 
+    <p> teste p2 <strong> tchuca </strong></p>
+    <div> clique em mim </div>
+    
+
+    <script> 
+        /*var p1 = window.document.getElementsByTagName('p') Fica Undefined sem referencia [] */
+        var corpo = window.document.body //Variavel para o body html
+        var p1 = window.document.getElementsByTagName('p')[0] // variavel para referenciar a primeira linha
+        var p2 = window.document.getElementsByTagName('p')[1] // variavel para referenciar a segunda linha
+        //primeiro p é [0] segundo é [1] ...
+        window.document.write(`Está escrito na p [0]: "${p1.innerText}"<br/>`) //innerText puxa só o texto
+        //                          Da para alterar diretamente o CSS que é HTML
+        p1.style.color = 'blue'
+        p2.style.color = 'green'
+        corpo.style.backgroundColor = 'coral'
+        //                          Para puxar as interações HTML como <strong>
+        document.write(`Está escrito na p [1]: "${p2.innerHTML}"</br>`) //innerHTML puxa o html inteiro inclusive o <strong>
+    
+    </script>
+      
+</body>
+</html>

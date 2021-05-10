@@ -1,0 +1,5 @@
+com o comando var exemplo = window.prompt('teste')
+Sim transformando em Number()
+Utilizando template de strings e com a funcao Place Holder $ ex: ${exemplo.toUppercase()}
+Para transformar a variavel em currency por exemplo usando o placeholder:
+${exemplo.toLocaleString('pt-br' {style: 'currency', currency: 'BRL'})}

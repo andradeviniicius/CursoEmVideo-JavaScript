@@ -1,0 +1,27 @@
+Pegar uma condicao composta e colocar outras concicoes
+
+por exemplo
+    <>
+1       2
+Result  <>
+        1  2
+        Result
+    Result
+OBS: um if dentro do outro
+
+if (cond1){
+    bloco1
+} else {
+    if (cond2){
+        bloco2
+    } else {
+        bloco3
+    }
+}
+
+
+Uma condicao dentro da outra, um if dentro do else
+Condicao aninhada :)
+
+VStudio code: ex011.js
+
