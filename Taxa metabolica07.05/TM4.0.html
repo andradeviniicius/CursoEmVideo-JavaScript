@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,18 +49,25 @@
    var res = document.querySelector('div#res')
 
    function calcular() {
-       var peso = document.querySelector('input#peso')
-       var idade = document.querySelector('input#idade')
-       var altura = document.querySelector('input#altura')
-       var frad = document.getElementsByName('radiosex')
-       var a1 = Number(altura.value)
-       var p1 = Number(peso.value)
-       var i1 = Number(idade.value)
+       
+        var peso = document.querySelector('input#peso')
+        var idade = document.querySelector('input#idade')
+        var altura = document.querySelector('input#altura')
+        var a1 = Number(altura.value)
+        var p1 = Number(peso.value)
+        var i1 = Number(idade.value)
 
-       if (frad[0].checked) {
-           
-           var cmasc = ((p1 * 10) + (a1 * 6.25) - (i1 * 5) + 5)
-           res.innerHTML = `O seu corpo gasta parado ${cmasc} calorias` 
+       if (i1 >= 100) {
+            window.alert('[ERRO] Idade Invalida')
+       }
+
+       else {
+            
+        var frad = document.getElementsByName('radiosex')
+        
+        if (frad[0].checked) { 
+            var cmasc = ((p1 * 10) + (a1 * 6.25) - (i1 * 5) + 5)
+            res.innerHTML = `O seu corpo gasta parado ${cmasc} calorias` 
        }     
        
        else if (frad[1].checked) {
@@ -69,6 +76,7 @@
        }
     
    }
+}
 
     
 </script>
