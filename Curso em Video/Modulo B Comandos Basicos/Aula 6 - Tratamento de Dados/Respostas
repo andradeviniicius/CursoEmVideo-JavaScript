@@ -1,3 +1,5 @@
+Respostas do video
+
 com o comando var exemplo = window.prompt('teste')
 Sim transformando em Number()
 Utilizando template de strings e com a funcao Place Holder $ ex: ${exemplo.toUppercase()}

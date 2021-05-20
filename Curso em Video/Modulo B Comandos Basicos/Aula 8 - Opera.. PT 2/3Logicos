@@ -30,7 +30,7 @@ item1   item2
 true    true    :   true
 true    false   :   false
 false   true    :   false
-false   false   :   false
+fase   flalse   :   false
 
                           
 Necessario os dois verdadeiros para resultar true

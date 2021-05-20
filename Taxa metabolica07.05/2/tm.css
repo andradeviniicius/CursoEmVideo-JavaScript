@@ -1,0 +1,38 @@
+body {
+    background-color: coral;
+    text-align: center;
+}header {
+    font: normal 20px impact;
+}
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 250px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397) ;
+
+    font: normal 15px Arial; 
+}
+
+input.butao{
+    background: gray;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    }
+input.butao:hover{
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 25px;
+    width: 80px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+}
+footer {
+    font: italic 10px arial ;
+}

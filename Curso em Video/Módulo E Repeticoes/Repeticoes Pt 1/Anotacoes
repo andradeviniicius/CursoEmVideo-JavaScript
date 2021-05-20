@@ -1,0 +1,67 @@
+Analogia Real sobre Repeticoes
+
+Para comer uma pizza de 8 fatias uma vez por mes voce executa uma 
+funcao:
+
+function comerpizza() {
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+}
+
+Programar é chegar do ponto A ao ponto B programando as linhas
+
+Pra fazer isso utiliza-se estruturas de controle como:
+
+SEquencias
+
+Objetivo
+1
+2
+3
+Resultado
+
+As vezes existem desvios, condições if else
+
+Mas hoje veremos um novo tipo dde estruturas,
+
+Repeticoes (Laços)
+
+Ele vai testar, true or false porém se for True, ele vai voltar
+para o teste, fazendo um loop
+
+teste
+positivo
+teste
+positivo
+teste
+negativo
+Resultado :)
+
+Como escrever: 
+
+while (condicao) {         
+
+}
+
+Leia-se: Enquanto essa condicao() for verdadeira será executado {} 
+         e irá executar o while de novo!
+
+
+Problematica: o exemplo real q usamos, tinha que se repetir 8 vezes
+e sse precisar repetir 283 vezes.......
+
+Resolução:
+
+function comerpizza(){
+    while (temFatia()) {
+        comerfatia()
+    }
+}
+
+Ambiente.js

@@ -1,0 +1,37 @@
+
+
+Linha1
+Linha2
+Enquanto (tal coisa for falsa) executará o bloco {
+    comandos
+} Se tal coisa se tornar true>
+Linha 3
+Linha 4
+Básico
+
+agora o avançado:
+
+Linha1
+Linha2
+for (inicio;teste;incr) {       //  qnd o leitor chegar no for ele fará o inicio e o teste
+    bloco                           sendo esse teste true, ele vai executar o bloco
+}                                   -inclusive dentro do for da pra trabalhar com 
+Linha 3                             while, do while, if, switch qlqr um-
+Linha 4                             e vai executar o incremento. Se o tesste for 
+Linha 5                             true de novo ele fará o bloco de novo e o 
+Linha 6                             incremento de novo , quando ficar false
+Linha 7                             ele segue pra linha 3
+
+Pratico:
+
+var c = 1
+while (c<=10) {
+    bloco
+    c++
+}
+
+Utilizando for:
+
+for (var c = 1; c<=10; c++) {
+    bloco
+}

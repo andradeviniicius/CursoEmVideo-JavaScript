@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bora se cuidar :)</title>
+    <link rel="stylesheet" href="TM4.0.css">
+</head>
+
+<body>
+    <h1> Olá, nesse site você vai descobrir sua Taxa Metabólica Basal</h1>
+    <p> A taxa metabolica basal é o quanto de caloria o seu corpo gasta apenas por existir</p>
+    <p> Bora começar :) </p>
+
+    <div id='info'>
+
+        <strong>Seu peso em KG:</strong>   <input type='value' name='peso' id = "peso">  <br>
+        <strong>Sua altura em cm</strong> <input type='value' name='altura' id="altura" ><br> 
+        <strong>Sua idade em Anos </strong> <input type='value' name='idade' id=idade>  <br> <br>
+    
+        <p id=sex><strong>Seu sexo biológico:</strong> <br></p>
+
+        <input type='radio' name='radiosex' id='masc' checked >
+        <label for ='masc'> Masculino</label>
+
+        <input type='radio' name='radiosex' id='fem' >
+        <label for ='masc'> Feminino </label>  <br> <br>
+
+        <input type='button' value='Calcular!' onclick="calcular()"> <br> <br>
+    
+        </div>
+
+    <div id='res'>  </div>
+    
+    <script> src="TM4.0.js" </script>
+</body>
+</html>

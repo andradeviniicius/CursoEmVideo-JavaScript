@@ -1,0 +1,47 @@
+Bom, eu trabalhei em algumas posssibilidades para fazer uma
+conferencia
+
+se o usuario nao colocar nada nas caixas de informacao, tinha
+que aparecer uma mensagem falando que a caixa estava vazia
+e caso todas as caixas estivesse completas, passava por uma
+inspeçao de validade. por exemplo idade < 120 Altura < 250 etc
+
+Depois desses testes que executaria o calculo, nao consigo
+fazer isso com os conhecimentos que tenho agora, testei 
+while, if, else if, varias formas mas acredito só ser possivel
+com outras funcoes
+
+>Funcao valores nulos false?
+>Funcao valores corretos false?
+>Calculo executado
+
+Tentei esses arquivos mas desisti, vou continuar vendo as aulas 
+pra ver se adquiro alguma ideia, acredito que na aula de 
+funcoes
+
+tmsimples.js
+tmifelsse.js
+TM4.0.js
+
+Passei trabalho pra estilizar também como está no arquivo
+de texto estilo
+
+Voltei pra mais uma tentativa dessa vez em switch
+Desisti dps de 4 minutos de video sobre switch pois nao aprendi
+params de function
+
+Minhas Funcoes ate agora
+function() {
+
+}
+Conhecimento necessario:
+function(xxx) {
+    switch(xxx) {
+    case "Algo":
+        comandos
+    break;
+    ....
+    default:
+        comandos
+    }
+}
