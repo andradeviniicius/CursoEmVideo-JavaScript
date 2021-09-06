@@ -1,1 +1,0 @@
-Esse projetinhO eu fiz com o intuito de automatizar o processo de calculo calórico botando em prática alguns dos exercicios que aprendi no Curso do guanabara, e vou atualizando versões conforme for aprendendo novas funcionalidades dentro da linguagem :)
